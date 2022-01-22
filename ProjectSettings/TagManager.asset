@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - bustHealth
+  - bustCoin
   layers:
   - Default
   - TransparentFX
@@ -11,10 +13,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Character
+  - Foreground
+  - Ground
   - 
   - 
   - 
@@ -40,4 +42,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3198861585
+    locked: 0
+  - name: Character
+    uniqueID: 4104319533
+    locked: 0
+  - name: Foreground
+    uniqueID: 3695607559
+    locked: 0
+  - name: Ground
+    uniqueID: 1913752857
     locked: 0
