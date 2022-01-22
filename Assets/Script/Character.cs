@@ -5,7 +5,7 @@ using UnityEngine.Animations;
 
 public class Character : MonoBehaviour
 {
-
+    public AudioSource sonidoJump;
     public float Speed = 0.0f;
 
     public float lateralMovement = 2.0f;
@@ -22,6 +22,7 @@ public class Character : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sonidoJump = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
     }
@@ -31,8 +32,15 @@ public class Character : MonoBehaviour
     {
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, LayerMask.GetMask("Ground"));
 
-        if (grounded && Input.GetButton("Jump")) rigidBody2D.AddForce(Vector2.up * jumpMovement);
-
+        if (grounded && Input.GetButton("Jump"))
+        {
+            rigidBody2D.AddForce(Vector2.up * jumpMovement);
+            sonidoJump.Play();
+        }
+        if (grounded && Input.GetButton("Vertical")) 
+        {
+            animator.SetTrigger("Down");
+        }
         if (grounded) animator.SetTrigger("Ground");
         else animator.SetTrigger("Jump");
 
