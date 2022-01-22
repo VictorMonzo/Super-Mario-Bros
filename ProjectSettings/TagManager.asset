@@ -6,6 +6,7 @@ TagManager:
   tags:
   - bustHealth
   - bustCoin
+  - FinalBandera
   layers:
   - Default
   - TransparentFX
