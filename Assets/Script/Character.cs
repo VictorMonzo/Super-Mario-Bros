@@ -22,7 +22,7 @@ public class Character : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sonidoJump = GetComponent<AudioSource>();
+        //sonidoJump = sonidoJump.GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
     }
