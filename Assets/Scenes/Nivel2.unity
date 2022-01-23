@@ -211,15 +211,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4626093930985990, guid: ed84cd197f7024048a728aa8354e0523, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4626093930985990, guid: ed84cd197f7024048a728aa8354e0523, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.224
+      value: 2.21
       objectReference: {fileID: 0}
     - target: {fileID: 4626093930985990, guid: ed84cd197f7024048a728aa8354e0523, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.052
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: 4626093930985990, guid: ed84cd197f7024048a728aa8354e0523, type: 3}
       propertyPath: m_LocalPosition.z
@@ -338,6 +338,63 @@ Transform:
   m_Father: {fileID: 1680623843}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1035280434
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1999976536050566, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_Name
+      value: Green Coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.098
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590855576346480, guid: 775db051cb2aec043829c25239487bbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 775db051cb2aec043829c25239487bbb, type: 3}
 --- !u!1 &1519798342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,7 +1903,7 @@ GameObject:
   - component: {fileID: 1680623844}
   m_Layer: 7
   m_Name: MarioBros64
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1935,7 +1992,7 @@ Transform:
   - {fileID: 733731143}
   - {fileID: 211474940}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1680623844
 MonoBehaviour:
@@ -1949,6 +2006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df4e0764f6d053d45a29707402a585ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sonidoJump: {fileID: 0}
   Speed: 4
   lateralMovement: 2
   jumpMovement: 10
@@ -2000,7 +2058,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1404015420456170990, guid: a73e45762a00edf4889656b2143440e8, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1404015420456170990, guid: a73e45762a00edf4889656b2143440e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2061,7 +2119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7226976666522970831, guid: 129da41c958459b4d885ddade4828fb3, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7226976666522970831, guid: 129da41c958459b4d885ddade4828fb3, type: 3}
       propertyPath: m_LocalScale.x
