@@ -23,6 +23,12 @@ public class Character : MonoBehaviour
     private Rigidbody2D rigidBody2D;
 
     public bool grounded = true;
+
+
+    private float tiempoStart;
+
+
+    private float tiempoEnd=5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -60,9 +66,18 @@ public class Character : MonoBehaviour
 
         //Verificar si cae
 
-        if (transform.position.y < 1f)
+        if (transform.position.y < -1f)
         {
-            SceneManager.LoadScene("GameOver");
+            if (levelManager.lives ==0)
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
+            else
+            {
+                SceneManager.LoadScene("GameOver");
+            }
+            
+        
         }
         
     }
@@ -76,8 +91,9 @@ public class Character : MonoBehaviour
         
         if (other.gameObject.CompareTag("FinalBandera"))
         {
-           // SceneManager.LoadScene("GameOver");
-           sonidoFinal.Play();
+            sonidoFinal.Play();
+            gameObject.transform.Translate(Vector3.down * 0f);
+            Invoke("changeScene",5f);
         }
         
     }
@@ -88,8 +104,12 @@ public class Character : MonoBehaviour
         {
             GameObject.Find("MainVirtual").GetComponent<CinemachineVirtualCamera>().enabled = true;
         }
-
-       
-        
     }
+
+    private void changeScene()
+    {
+        SceneManager.LoadScene("Nivel2");
+    }
+
+    
 }

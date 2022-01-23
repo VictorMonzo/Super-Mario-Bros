@@ -10,11 +10,16 @@ public class LevelManager : MonoBehaviour
     public int coins;
     public int score=0;
     public float time;
+    public int lives=0;
     public Text coinText;
     public Text timeText;
     public Text scoreText;
+    public Text vidasText;
     public AudioSource soundSource;
     public AudioClip coinSound;
+    public AudioClip bumpSound;
+    public AudioClip setaUp;
+    public AudioClip upLife;
 
     // Start is called before the first frame update
     void Start()
@@ -65,6 +70,14 @@ public class LevelManager : MonoBehaviour
     
     public void SetHudCoin() {
         coinText.text = "x" + coins.ToString ("D2");
+    }
+    
+    public void AddLife() {
+        lives++;
+        soundSource.PlayOneShot (upLife);
+
+        vidasText.text = lives.ToString();
+
     }
     
 }
