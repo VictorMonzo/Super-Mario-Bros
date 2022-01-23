@@ -32,7 +32,7 @@ public class CollectibleBlock : MonoBehaviour {
 		isActive = true;
 	}
 
-/*	void OnTriggerEnter2D(Collider2D other) {
+	void OnTriggerEnter2D(Collider2D other) {
 		time2 = Time.time;
 		if (other.tag == "Player" && time2 - time1 >= WaitBetweenBounce) {
 			t_LevelManager.soundSource.PlayOneShot (t_LevelManager.bumpSound);
@@ -40,24 +40,24 @@ public class CollectibleBlock : MonoBehaviour {
 			if (isActive) {
 				m_Animator.SetTrigger ("bounce");
 
-				// Hit any enemy on top
+				/*// Hit any enemy on top
 				foreach (GameObject enemyObj in enemiesOnTop) {
 					t_LevelManager.BlockHitEnemy (enemyObj.GetComponent<Enemy> ());
-				}
+				}*/
 
 				if (timesToSpawn > 0) {
-					if (isPowerupBlock) { // spawn mushroom or fireflower depending on Mario's size
+				/*	if (isPowerupBlock) { // spawn mushroom or fireflower depending on Mario's size
 						if (t_LevelManager.marioSize == 0) {
 							objectToSpawn = bigMushroom;
 						} else {
 							objectToSpawn = fireFlower;
 						}
-					}
+					}*/
 					Instantiate (objectToSpawn, transform.position + spawnPositionOffset, Quaternion.identity);
 					timesToSpawn--;
 
 					if (timesToSpawn == 0) {
-						m_Animator.SetTrigger ("deactivated");
+						m_Animator.SetTrigger ("Desactivated");
 						isActive = false;
 					}			
 				}
@@ -65,7 +65,7 @@ public class CollectibleBlock : MonoBehaviour {
 
 			time1 = Time.time;
 		}
-	}*/
+	}
 
 
 	// check for enemy on top
