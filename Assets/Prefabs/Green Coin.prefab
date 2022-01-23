@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 114718143306506142}
   - component: {fileID: 58729216425428130}
   - component: {fileID: 50349635252257350}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Green Coin
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -705517803
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 2785271887596962184, guid: 9ac6a67931bb77a40bf9e60d3bea0815, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -96,7 +96,7 @@ Animator:
   m_GameObject: {fileID: 1999976536050566}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6e7edce5272114abf84159b529f57241, type: 2}
+  m_Controller: {fileID: 9100000, guid: 44ea92830f963d141b65571d0e7215d2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 2
   m_ApplyRootMotion: 0
@@ -130,9 +130,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 6.2528307e+12, y: 0.0012163445}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.050323036
+  m_Radius: 0.07
 --- !u!50 &50349635252257350
 Rigidbody2D:
   serializedVersion: 4
