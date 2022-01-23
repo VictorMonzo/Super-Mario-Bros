@@ -1,13 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.Animations;
+using UnityEngine.SceneManagement;
 
 public class Character : MonoBehaviour
 {
     public AudioSource sonidoJump;
+    public AudioSource sonidoFinal;
     public float Speed = 0.0f;
-
+    private LevelManager levelManager;
     public float lateralMovement = 2.0f;
 
     public float jumpMovement = 400.0f;
@@ -22,9 +26,11 @@ public class Character : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sonidoJump = GetComponent<AudioSource>();
+        //sonidoJump = sonidoJump.GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         rigidBody2D = GetComponent<Rigidbody2D>();
+        
+        levelManager = FindObjectOfType<LevelManager> ();
     }
 
     // Update is called once per frame
@@ -52,5 +58,38 @@ public class Character : MonoBehaviour
         if (Speed < 0) transform.localScale = new Vector3(-1, 1, 1);
         else transform.localScale = new Vector3(1, 1, 1);
 
+        //Verificar si cae
+
+        if (transform.position.y < 1f)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Zoom"))
+        {
+            GameObject.Find("MainVirtual").GetComponent<CinemachineVirtualCamera>().enabled = false;
+        }
+        
+        if (other.gameObject.CompareTag("FinalBandera"))
+        {
+           // SceneManager.LoadScene("GameOver");
+           sonidoFinal.Play();
+        }
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Zoom"))
+        {
+            GameObject.Find("MainVirtual").GetComponent<CinemachineVirtualCamera>().enabled = true;
+        }
+
+       
+        
     }
 }
