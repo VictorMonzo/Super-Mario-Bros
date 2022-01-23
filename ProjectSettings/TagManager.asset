@@ -9,6 +9,8 @@ TagManager:
   - FinalBandera
   - Enemy
   - Zoom
+  - Coin
+  - cajaBust
   layers:
   - Default
   - TransparentFX
