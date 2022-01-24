@@ -11,6 +11,8 @@ TagManager:
   - Zoom
   - Coin
   - cajaBust
+  - Pared
+  - MobilePlatform
   layers:
   - Default
   - TransparentFX

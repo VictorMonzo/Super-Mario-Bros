@@ -20,11 +20,21 @@ public class LevelManager : MonoBehaviour
     public AudioClip bumpSound;
     public AudioClip setaUp;
     public AudioClip upLife;
-
+    public AudioClip kickSound;
+    public AudioClip stompSound;
+    
+    public Vector2 stompBounceVelocity = new Vector2 (0, 15);
+    
+    private Character mario;
+    private Rigidbody2D mario_Rigidbody2D;
+    
     // Start is called before the first frame update
     void Start()
     {
         AddTime();
+        
+        mario = FindObjectOfType<Character> ();
+        mario_Rigidbody2D = mario.gameObject.GetComponent<Rigidbody2D> ();
     }
 
     // Update is called once per frame
@@ -49,7 +59,7 @@ public class LevelManager : MonoBehaviour
     public void SetHubTime()
     {
         timeText.text = time.ToString("F0");
-        if (timeText.text =="0")
+        if (timeText.text == "0")
         {
             SceneManager.LoadScene("GameOver");
         }
@@ -80,4 +90,10 @@ public class LevelManager : MonoBehaviour
 
     }
     
+    public void MarioStompEnemy(Enemy enemy) {
+        mario_Rigidbody2D.velocity = new Vector2 (mario_Rigidbody2D.velocity.x + stompBounceVelocity.x, stompBounceVelocity.y);
+        enemy.StompedByMario ();
+        soundSource.PlayOneShot (stompSound);
+        //AddScore (enemy.stompBonus, enemy.gameObject.transform.position);
+    }
 }
