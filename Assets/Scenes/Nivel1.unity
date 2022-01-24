@@ -4230,7 +4230,7 @@ MonoBehaviour:
   kickSound: {fileID: 8300000, guid: 3be8640984b8be445a9dfaa9e65124c4, type: 3}
   stompSound: {fileID: 8300000, guid: 333b7da5740c52644a4fa2f02e37fedc, type: 3}
   deadMario: {fileID: 8300000, guid: 7bfdfda2afbc347419f54eed58a6be1e, type: 3}
-  stompBounceVelocity: {x: 0, y: 15}
+  stompBounceVelocity: {x: 0, y: 4}
 --- !u!1001 &1578833978
 PrefabInstance:
   m_ObjectHideFlags: 0

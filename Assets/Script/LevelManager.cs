@@ -24,7 +24,7 @@ public class LevelManager : MonoBehaviour
     public AudioClip stompSound;
     public AudioClip deadMario;
     
-    public Vector2 stompBounceVelocity = new Vector2 (0, 15);
+    public Vector2 stompBounceVelocity = new Vector2 (0, 1);
     
     private Character mario;
     private Rigidbody2D mario_Rigidbody2D;
@@ -71,10 +71,11 @@ public class LevelManager : MonoBehaviour
         coins++;
         score += 100;
         soundSource.PlayOneShot (coinSound);
-        // if (coins == 100) {
-        //     AddLife ();
-        //     coins = 0;
-        // }
+        if (coins == 100)
+        { 
+            AddLife (); 
+            coins = 0;
+        }
 
         if (coins >=100)
         {
@@ -95,13 +96,12 @@ public class LevelManager : MonoBehaviour
         soundSource.PlayOneShot (upLife);
 
         vidasText.text = lives.ToString();
-
     }
     
     public void MarioStompEnemy(Enemy enemy)
     {
         score = score + 1000;
-      //  mario_Rigidbody2D.velocity = new Vector2qario_Rigidbody2D.velocity.x + stompBounceVelocity.x, stompBounceVelocity.y);
+        mario_Rigidbody2D.velocity = new Vector2(mario_Rigidbody2D.velocity.x + stompBounceVelocity.x, stompBounceVelocity.y);
         enemy.StompedByMario ();
         soundSource.PlayOneShot (stompSound);
         //AddScore (enemy.stompBonus, enemy.gameObject.transform.position);
