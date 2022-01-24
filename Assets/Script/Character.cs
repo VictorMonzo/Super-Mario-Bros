@@ -27,6 +27,8 @@ public class Character : MonoBehaviour
     private float tiempoStart;
 
     private float tiempoEnd=5f;
+
+    private Boolean movimiento = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,33 +43,39 @@ public class Character : MonoBehaviour
     void Update()
     {
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, LayerMask.GetMask("Ground"));
-
-        if (grounded && Input.GetButton("Jump"))
+        if (movimiento)
         {
-            rigidBody2D.AddForce(Vector2.up * jumpMovement);
-            sonidoJump.Play();
+            if (grounded && Input.GetButton("Jump"))
+            {
+                rigidBody2D.AddForce(Vector2.up * jumpMovement);
+                sonidoJump.Play();
+            }
+        
+            if (grounded && Input.GetButton("Vertical")) 
+            {
+                animator.SetTrigger("Down");
+            }
+
+            animator.SetTrigger(grounded ? "Ground" : "Jump");
+
+            Speed = lateralMovement * Input.GetAxis("Horizontal");
+            transform.Translate(Vector2.right * Speed * Time.deltaTime);
+        
+            animator.SetFloat("Speed", Mathf.Abs(Speed));
+
+            if (Speed < 0) transform.localScale = new Vector3(-1, 1, 1);
+            else transform.localScale = new Vector3(1, 1, 1);
         }
         
-        if (grounded && Input.GetButton("Vertical")) 
-        {
-            animator.SetTrigger("Down");
-        }
-
-        animator.SetTrigger(grounded ? "Ground" : "Jump");
-
-        Speed = lateralMovement * Input.GetAxis("Horizontal");
-        transform.Translate(Vector2.right * Speed * Time.deltaTime);
-        
-        animator.SetFloat("Speed", Mathf.Abs(Speed));
-
-        if (Speed < 0) transform.localScale = new Vector3(-1, 1, 1);
-        else transform.localScale = new Vector3(1, 1, 1);
+       
 
         //Verificar si cae
 
         if (transform.position.y < -1f)
         {
-            SceneManager.LoadScene(levelManager.lives == 0 ? "MainMenu" : "GameOver");
+            levelManager.soundSource.PlayOneShot(levelManager.deadMario);
+            levelManager.lives--;
+            Invoke("comprobarMuerte", 5f);
         }
         
     }
@@ -81,8 +89,9 @@ public class Character : MonoBehaviour
         
         if (other.gameObject.CompareTag("FinalBandera"))
         {
+            movimiento = false;
+            animator.Play("idle");
             sonidoFinal.Play();
-            gameObject.transform.Translate(Vector3.down * 0f);
             Invoke("changeScene",5f);
         }
         
@@ -101,6 +110,15 @@ public class Character : MonoBehaviour
         if (other.gameObject.CompareTag("MobilePlatform"))
         {
             transform.SetParent(other.transform);
+        }
+
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            levelManager.soundSource.PlayOneShot(levelManager.deadMario);
+            levelManager.lives--;
+           comprobarMuerte();
+          
+            
         }
     }
     
@@ -122,5 +140,11 @@ public class Character : MonoBehaviour
     private void changeScene()
     {
         SceneManager.LoadScene("Nivel2");
+    }
+
+    private void comprobarMuerte()
+    {
+        SceneManager.LoadScene(levelManager.lives < 0 ? "MainMenu" : "GameOver");
+
     }
 }
