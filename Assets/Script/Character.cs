@@ -29,6 +29,12 @@ public class Character : MonoBehaviour
     private float tiempoEnd=5f;
 
     private Boolean movimiento = true;
+    
+    //Botones UI
+    private float movementButton=0.0f;
+    private Boolean tipoPC = true;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -45,26 +51,40 @@ public class Character : MonoBehaviour
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, LayerMask.GetMask("Ground"));
         if (movimiento)
         {
-            if (grounded && Input.GetButton("Jump"))
+            if (tipoPC)
             {
-                rigidBody2D.AddForce(Vector2.up * jumpMovement);
-                sonidoJump.Play();
-            }
+                if (grounded && Input.GetButton("Jump"))
+                {
+                    rigidBody2D.AddForce(Vector2.up * jumpMovement);
+                    sonidoJump.Play();
+                }
         
-            if (grounded && Input.GetButton("Vertical")) 
+                if (grounded && Input.GetButton("Vertical")) 
+                {
+                    animator.SetTrigger("Down");
+                }
+
+                animator.SetTrigger(grounded ? "Ground" : "Jump");
+
+                Speed = lateralMovement * Input.GetAxis("Horizontal");
+                transform.Translate(Vector2.right * Speed * Time.deltaTime);
+        
+                animator.SetFloat("Speed", Mathf.Abs(Speed));
+
+                if (Speed < 0) transform.localScale = new Vector3(-1, 1, 1);
+                else transform.localScale = new Vector3(1, 1, 1);
+            }
+            else
             {
-                animator.SetTrigger("Down");
-            }
-
-            animator.SetTrigger(grounded ? "Ground" : "Jump");
-
-            Speed = lateralMovement * Input.GetAxis("Horizontal");
-            transform.Translate(Vector2.right * Speed * Time.deltaTime);
+                animator.SetTrigger(grounded ? "Ground" : "Jump");
+                Speed = lateralMovement * movementButton;
+                transform.Translate(Vector2.right * Speed * Time.deltaTime);
         
-            animator.SetFloat("Speed", Mathf.Abs(Speed));
+                animator.SetFloat("Speed", Mathf.Abs(Speed));
 
-            if (Speed < 0) transform.localScale = new Vector3(-1, 1, 1);
-            else transform.localScale = new Vector3(1, 1, 1);
+                if (Speed < 0) transform.localScale = new Vector3(-1, 1, 1);
+                else transform.localScale = new Vector3(1, 1, 1);
+            }
         }
         
        
@@ -146,5 +166,21 @@ public class Character : MonoBehaviour
     {
         SceneManager.LoadScene(levelManager.lives < 0 ? "MainMenu" : "GameOver");
 
+    }
+    
+    //Funciones botones UI
+
+    public void Jump()
+    {
+        if (grounded)
+        {
+           rigidBody2D.AddForce(Vector2.up * 200.0f);
+            sonidoJump.Play();
+        }
+    }
+
+    public void Move(float amount)
+    {
+        movementButton = amount;
     }
 }
