@@ -29,4 +29,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Nivel1");
     }
+
+    public void StartInfo()
+    {
+        SceneManager.LoadScene("Info");
+    }
 }
