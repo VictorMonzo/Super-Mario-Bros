@@ -22,6 +22,7 @@ public class LevelManager : MonoBehaviour
     public AudioClip upLife;
     public AudioClip kickSound;
     public AudioClip stompSound;
+    public AudioClip deadMario;
     
     public Vector2 stompBounceVelocity = new Vector2 (0, 15);
     
@@ -74,6 +75,13 @@ public class LevelManager : MonoBehaviour
         //     AddLife ();
         //     coins = 0;
         // }
+
+        if (coins >=100)
+        {
+            coins = 0;
+            AddLife();
+        }
+        
         SetHudCoin ();
         // AddScore (coinBonus);
     }
@@ -90,8 +98,10 @@ public class LevelManager : MonoBehaviour
 
     }
     
-    public void MarioStompEnemy(Enemy enemy) {
-        mario_Rigidbody2D.velocity = new Vector2 (mario_Rigidbody2D.velocity.x + stompBounceVelocity.x, stompBounceVelocity.y);
+    public void MarioStompEnemy(Enemy enemy)
+    {
+        score = score + 1000;
+      //  mario_Rigidbody2D.velocity = new Vector2qario_Rigidbody2D.velocity.x + stompBounceVelocity.x, stompBounceVelocity.y);
         enemy.StompedByMario ();
         soundSource.PlayOneShot (stompSound);
         //AddScore (enemy.stompBonus, enemy.gameObject.transform.position);

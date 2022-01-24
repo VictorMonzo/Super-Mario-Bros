@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class MainMenu : MonoBehaviour
 {
     public Text textLives;
+    public Text textCoins;
 
     private LevelManager _levelManager;
 
@@ -14,8 +15,8 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         _levelManager = FindObjectOfType<LevelManager>();
-
-        textLives.text = _levelManager.coins.ToString("D2");
+        textCoins.text = "x" + _levelManager.coins.ToString ("D2");
+        textLives.text = _levelManager.lives.ToString("D2");
     }
 
     // Update is called once per frame
