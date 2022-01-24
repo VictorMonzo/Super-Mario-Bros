@@ -46,7 +46,7 @@ public class MoveAndFlip : MonoBehaviour {
 		Vector2 bottomSide = new Vector2 (0f, 1f);
 		bool sideHit = normal == leftSide || normal == rightSide;
 		bool bottomHit = normal == bottomSide;
-
+		
 		if (other.gameObject.tag != "Player" && sideHit) {
 			directionX = -directionX;
 			OrientSprite ();

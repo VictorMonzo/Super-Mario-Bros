@@ -23,10 +23,8 @@ public class Character : MonoBehaviour
     private Rigidbody2D rigidBody2D;
 
     public bool grounded = true;
-
-
+    
     private float tiempoStart;
-
 
     private float tiempoEnd=5f;
     // Start is called before the first frame update
@@ -49,12 +47,13 @@ public class Character : MonoBehaviour
             rigidBody2D.AddForce(Vector2.up * jumpMovement);
             sonidoJump.Play();
         }
+        
         if (grounded && Input.GetButton("Vertical")) 
         {
             animator.SetTrigger("Down");
         }
-        if (grounded) animator.SetTrigger("Ground");
-        else animator.SetTrigger("Jump");
+
+        animator.SetTrigger(grounded ? "Ground" : "Jump");
 
         Speed = lateralMovement * Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * Speed * Time.deltaTime);
@@ -68,16 +67,7 @@ public class Character : MonoBehaviour
 
         if (transform.position.y < -1f)
         {
-            if (levelManager.lives ==0)
-            {
-                SceneManager.LoadScene("MainMenu");
-            }
-            else
-            {
-                SceneManager.LoadScene("GameOver");
-            }
-            
-        
+            SceneManager.LoadScene(levelManager.lives == 0 ? "MainMenu" : "GameOver");
         }
         
     }
@@ -105,11 +95,32 @@ public class Character : MonoBehaviour
             GameObject.Find("MainVirtual").GetComponent<CinemachineVirtualCamera>().enabled = true;
         }
     }
+    
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("MobilePlatform"))
+        {
+            transform.SetParent(other.transform);
+        }
+    }
+    
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("MobilePlatform"))
+        {
+            transform.SetParent(null);
+        }
+
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Enemy enemy = other.gameObject.GetComponent<Enemy> ();
+
+            // TODO Comprobar donde le golpea y matar al Enemy
+        }
+    }
 
     private void changeScene()
     {
         SceneManager.LoadScene("Nivel2");
     }
-
-    
 }
