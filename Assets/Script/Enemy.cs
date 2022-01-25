@@ -30,32 +30,7 @@ public class Enemy : MonoBehaviour {
 			c.enabled = false;
 		}
 	}
-
-	protected void ResumeInteraction() {
-		GetComponent<Rigidbody2D> ().constraints = RigidbodyConstraints2D.FreezeRotation;
-		foreach (Collider2D c in GetComponents<Collider2D>()) {
-			c.enabled = true;
-		}
-	}
-
-	public virtual void TouchedByStarmanMario() {
-		FlipAndDie ();
-	}
-		
-	public virtual void TouchedByRollingShell() {
-		FlipAndDie ();
-	}
-		
-	public virtual void HitBelowByBlock() {
-		FlipAndDie ();
-	}
-
-	public virtual void HitByMarioFireball() {
-		FlipAndDie ();
-	}
-
+	
 	public virtual void StompedByMario() {
 	}
-
-
 }

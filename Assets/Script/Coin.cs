@@ -15,7 +15,5 @@ public class Coin : MonoBehaviour {
 			t_LevelManager.AddCoin ();
 			Destroy (gameObject);
 		}
-		
-		
 	}
 }
