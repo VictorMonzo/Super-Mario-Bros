@@ -1,0 +1,1920 @@
+fileFormatVersion: 2
+guid: 16a2bde7c4389774881973f32946975c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7497953980453916863
+    second: DS DSi - New Super Mario Bros - Pipes_0
+  - first:
+      213: -6348187865057666378
+    second: DS DSi - New Super Mario Bros - Pipes_1
+  - first:
+      213: -2990134110721176318
+    second: DS DSi - New Super Mario Bros - Pipes_2
+  - first:
+      213: 5664867018601280217
+    second: DS DSi - New Super Mario Bros - Pipes_3
+  - first:
+      213: 8800115561324944110
+    second: DS DSi - New Super Mario Bros - Pipes_4
+  - first:
+      213: -616388059526249635
+    second: DS DSi - New Super Mario Bros - Pipes_5
+  - first:
+      213: 5665575463444978094
+    second: DS DSi - New Super Mario Bros - Pipes_6
+  - first:
+      213: -2499023667570383047
+    second: DS DSi - New Super Mario Bros - Pipes_7
+  - first:
+      213: 7154602421208505474
+    second: DS DSi - New Super Mario Bros - Pipes_8
+  - first:
+      213: -2717160567517488054
+    second: DS DSi - New Super Mario Bros - Pipes_9
+  - first:
+      213: 3594039461421192915
+    second: DS DSi - New Super Mario Bros - Pipes_10
+  - first:
+      213: -5956518990178603184
+    second: DS DSi - New Super Mario Bros - Pipes_11
+  - first:
+      213: 1558323651114660632
+    second: DS DSi - New Super Mario Bros - Pipes_12
+  - first:
+      213: 7163920425188020886
+    second: DS DSi - New Super Mario Bros - Pipes_13
+  - first:
+      213: -7357430287729604392
+    second: DS DSi - New Super Mario Bros - Pipes_14
+  - first:
+      213: 6006300647036486208
+    second: DS DSi - New Super Mario Bros - Pipes_15
+  - first:
+      213: 1491175783760598304
+    second: DS DSi - New Super Mario Bros - Pipes_16
+  - first:
+      213: -3624861599253495508
+    second: DS DSi - New Super Mario Bros - Pipes_17
+  - first:
+      213: 996373394689131552
+    second: DS DSi - New Super Mario Bros - Pipes_18
+  - first:
+      213: 6364081916902149317
+    second: DS DSi - New Super Mario Bros - Pipes_19
+  - first:
+      213: 1221610826154043909
+    second: DS DSi - New Super Mario Bros - Pipes_20
+  - first:
+      213: 4323684874719713531
+    second: DS DSi - New Super Mario Bros - Pipes_21
+  - first:
+      213: 568882915249476719
+    second: DS DSi - New Super Mario Bros - Pipes_22
+  - first:
+      213: 2230216990627344746
+    second: DS DSi - New Super Mario Bros - Pipes_23
+  - first:
+      213: -459782977426318816
+    second: DS DSi - New Super Mario Bros - Pipes_24
+  - first:
+      213: 5127730002346766621
+    second: DS DSi - New Super Mario Bros - Pipes_25
+  - first:
+      213: -6856641667754330430
+    second: DS DSi - New Super Mario Bros - Pipes_26
+  - first:
+      213: 3626116361851904620
+    second: DS DSi - New Super Mario Bros - Pipes_27
+  - first:
+      213: -3589791652989453374
+    second: DS DSi - New Super Mario Bros - Pipes_28
+  - first:
+      213: 7243430296080105615
+    second: DS DSi - New Super Mario Bros - Pipes_29
+  - first:
+      213: -3848722011168179816
+    second: DS DSi - New Super Mario Bros - Pipes_30
+  - first:
+      213: -2535138058121702927
+    second: DS DSi - New Super Mario Bros - Pipes_31
+  - first:
+      213: -1222350943902147650
+    second: DS DSi - New Super Mario Bros - Pipes_32
+  - first:
+      213: -313317000885598961
+    second: DS DSi - New Super Mario Bros - Pipes_33
+  - first:
+      213: -4491433138595446404
+    second: DS DSi - New Super Mario Bros - Pipes_34
+  - first:
+      213: 4116351348007901234
+    second: DS DSi - New Super Mario Bros - Pipes_35
+  - first:
+      213: 6912632473535431226
+    second: DS DSi - New Super Mario Bros - Pipes_36
+  - first:
+      213: -6674739864448557796
+    second: DS DSi - New Super Mario Bros - Pipes_37
+  - first:
+      213: -3323328124609430958
+    second: DS DSi - New Super Mario Bros - Pipes_38
+  - first:
+      213: 2213493057778437756
+    second: DS DSi - New Super Mario Bros - Pipes_39
+  - first:
+      213: 6078570389557244945
+    second: DS DSi - New Super Mario Bros - Pipes_40
+  - first:
+      213: -6785809677918547601
+    second: DS DSi - New Super Mario Bros - Pipes_41
+  - first:
+      213: -6100270785609365740
+    second: DS DSi - New Super Mario Bros - Pipes_42
+  - first:
+      213: 4100181718463834833
+    second: DS DSi - New Super Mario Bros - Pipes_43
+  - first:
+      213: -6194281259726614410
+    second: DS DSi - New Super Mario Bros - Pipes_44
+  - first:
+      213: -8192382513722891155
+    second: DS DSi - New Super Mario Bros - Pipes_45
+  - first:
+      213: 8324373010173025891
+    second: DS DSi - New Super Mario Bros - Pipes_46
+  - first:
+      213: 1260654307515538306
+    second: DS DSi - New Super Mario Bros - Pipes_47
+  - first:
+      213: -3294021163372928721
+    second: DS DSi - New Super Mario Bros - Pipes_48
+  - first:
+      213: -536558013990347128
+    second: DS DSi - New Super Mario Bros - Pipes_49
+  - first:
+      213: -6589711435069702818
+    second: DS DSi - New Super Mario Bros - Pipes_50
+  - first:
+      213: -5492314489222890968
+    second: DS DSi - New Super Mario Bros - Pipes_51
+  - first:
+      213: -3101592183097548989
+    second: DS DSi - New Super Mario Bros - Pipes_52
+  - first:
+      213: 1934302603896260340
+    second: DS DSi - New Super Mario Bros - Pipes_53
+  - first:
+      213: 7271123320211073860
+    second: DS DSi - New Super Mario Bros - Pipes_54
+  - first:
+      213: 3546796498797075284
+    second: DS DSi - New Super Mario Bros - Pipes_55
+  - first:
+      213: -8673324599484672010
+    second: DS DSi - New Super Mario Bros - Pipes_56
+  - first:
+      213: -3224970776550946184
+    second: DS DSi - New Super Mario Bros - Pipes_57
+  - first:
+      213: -1490812055063091021
+    second: DS DSi - New Super Mario Bros - Pipes_58
+  - first:
+      213: 399429593019033280
+    second: DS DSi - New Super Mario Bros - Pipes_59
+  - first:
+      213: 1098967005814141168
+    second: DS DSi - New Super Mario Bros - Pipes_60
+  - first:
+      213: 5254313090027485964
+    second: DS DSi - New Super Mario Bros - Pipes_61
+  - first:
+      213: -7427259170865170349
+    second: DS DSi - New Super Mario Bros - Pipes_62
+  - first:
+      213: -7384368235086339461
+    second: DS DSi - New Super Mario Bros - Pipes_63
+  - first:
+      213: 5734049022174763610
+    second: DS DSi - New Super Mario Bros - Pipes_64
+  - first:
+      213: 7956617608141418263
+    second: DS DSi - New Super Mario Bros - Pipes_65
+  - first:
+      213: -1810258817976868454
+    second: DS DSi - New Super Mario Bros - Pipes_66
+  - first:
+      213: -6653502468992873759
+    second: DS DSi - New Super Mario Bros - Pipes_67
+  - first:
+      213: 6198467866550126983
+    second: DS DSi - New Super Mario Bros - Pipes_68
+  - first:
+      213: -4134986370077729067
+    second: DS DSi - New Super Mario Bros - Pipes_69
+  - first:
+      213: -656460014679425136
+    second: DS DSi - New Super Mario Bros - Pipes_70
+  - first:
+      213: -574740299923624522
+    second: DS DSi - New Super Mario Bros - Pipes_71
+  - first:
+      213: 7715580625204911908
+    second: DS DSi - New Super Mario Bros - Pipes_72
+  - first:
+      213: 3245469099847763262
+    second: DS DSi - New Super Mario Bros - Pipes_73
+  - first:
+      213: -1137437584569539067
+    second: DS DSi - New Super Mario Bros - Pipes_74
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f61d4a49ae1f790800000000000000
+      internalID: -7497953980453916863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6badac755c4b6e7a0800000000000000
+      internalID: -6348187865057666378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d8fa36ed8e086d0800000000000000
+      internalID: -2990134110721176318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d23e872a86ad9e40800000000000000
+      internalID: 5664867018601280217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea192f5a7a402a70800000000000000
+      internalID: 8800115561324944110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53452c53562277f0800000000000000
+      internalID: -616388059526249635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea99ec2ddda20ae40800000000000000
+      internalID: 5665575463444978094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9376c29f63fa15dd0800000000000000
+      internalID: -2499023667570383047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c5841def04a4360800000000000000
+      internalID: 7154602421208505474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cdb672cd4ba4ad0800000000000000
+      internalID: -2717160567517488054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d61fbe19d790e130800000000000000
+      internalID: 3594039461421192915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f29849981365da0800000000000000
+      internalID: -5956518990178603184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81377c5ba1740a510800000000000000
+      internalID: 1558323651114660632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6925f7eabab5b6360800000000000000
+      internalID: 7163920425188020886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 68.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d84d28722825e990800000000000000
+      internalID: -7357430287729604392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0420fc0ad9aaa5350800000000000000
+      internalID: 6006300647036486208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02517b88978b1b410800000000000000
+      internalID: 1491175783760598304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c218a80b497e1bdc0800000000000000
+      internalID: -3624861599253495508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024881ec254d3dd00800000000000000
+      internalID: 996373394689131552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc807af8c2c15850800000000000000
+      internalID: 6364081916902149317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50aeea2f29804f010800000000000000
+      internalID: 1221610826154043909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8d5665c70d00c30800000000000000
+      internalID: 4323684874719713531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64db325ff315e700800000000000000
+      internalID: 568882915249476719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_23
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61326a698253fe10800000000000000
+      internalID: 2230216990627344746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_24
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a9bbc61d58e99f0800000000000000
+      internalID: -459782977426318816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11fdfde44b592740800000000000000
+      internalID: 5127730002346766621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c67c513bb058d0a0800000000000000
+      internalID: -6856641667754330430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c622a6e7e9d825230800000000000000
+      internalID: 3626116361851904620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_28
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbb6e9d28f7e2ec0800000000000000
+      internalID: -3589791652989453374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_29
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 51.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8048291a75d58460800000000000000
+      internalID: 7243430296080105615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899f715e8b7969ac0800000000000000
+      internalID: -3848722011168179816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1151d2e5161dcd0800000000000000
+      internalID: -2535138058121702927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb59d5fa46590fe0800000000000000
+      internalID: -1222350943902147650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_33
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f058f1409dfd6abf0800000000000000
+      internalID: -313317000885598961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_34
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71c9996b593ba1c0800000000000000
+      internalID: -4491433138595446404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_35
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23816bcddb7302930800000000000000
+      internalID: 4116351348007901234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_36
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32c8e72c9a9eef50800000000000000
+      internalID: 6912632473535431226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d9763257f8e53a0800000000000000
+      internalID: -6674739864448557796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_38
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25af69cadaa21e1d0800000000000000
+      internalID: -3323328124609430958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e4dad5538e7be10800000000000000
+      internalID: 2213493057778437756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_40
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11474cb409b6b5450800000000000000
+      internalID: 6078570389557244945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_41
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61d14afc06f3d1a0800000000000000
+      internalID: -6785809677918547601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4178f068a0c775ba0800000000000000
+      internalID: -6100270785609365740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_43
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da669b9c85c6e830800000000000000
+      internalID: 4100181718463834833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_44
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 34.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670d223530e790aa0800000000000000
+      internalID: -6194281259726614410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64ec65428fce4e80800000000000000
+      internalID: -8192382513722891155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e5639f52d168370800000000000000
+      internalID: 8324373010173025891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_47
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b9708d96ebe7110800000000000000
+      internalID: 1260654307515538306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21a98254394942d0800000000000000
+      internalID: -3294021163372928721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e57be3453cd88f0800000000000000
+      internalID: -536558013990347128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_50
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d37541d54ac84a0800000000000000
+      internalID: -6589711435069702818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a7323521167c3b0800000000000000
+      internalID: -5492314489222890968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_52
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f9758a75ee4f4d0800000000000000
+      internalID: -3101592183097548989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_53
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6895948f508da10800000000000000
+      internalID: 1934302603896260340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_54
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b6d3bb22838e460800000000000000
+      internalID: 7271123320211073860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_55
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b1669bf90c83130800000000000000
+      internalID: 3546796498797075284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_56
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f71f02ea3922a780800000000000000
+      internalID: -8673324599484672010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_57
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a4aa45a2a9e33d0800000000000000
+      internalID: -3224970776550946184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_58
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b82817a5529f4be0800000000000000
+      internalID: -1490812055063091021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_59
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 17.8
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6adac391f0b8500800000000000000
+      internalID: 399429593019033280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f03d615ba0504f00800000000000000
+      internalID: 1098967005814141168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bf5c5bae11be840800000000000000
+      internalID: 5254313090027485964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_62
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358b1d9a2231de890800000000000000
+      internalID: -7427259170865170349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_63
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b722009d634758990800000000000000
+      internalID: -7384368235086339461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_64
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a1763943f639f40800000000000000
+      internalID: 5734049022174763610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_65
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f23e20f859b6e60800000000000000
+      internalID: 7956617608141418263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_66
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9168fa323ba0e6e0800000000000000
+      internalID: -1810258817976868454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_67
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eace7791c20aa3a0800000000000000
+      internalID: -6653502468992873759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_68
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c4690fa1650650800000000000000
+      internalID: 6198467866550126983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_69
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de5f64fdc39d96c0800000000000000
+      internalID: -4134986370077729067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_70
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff8cf3819c3e6f0800000000000000
+      internalID: -656460014679425136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_71
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd63f80ebc1608f0800000000000000
+      internalID: -574740299923624522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_72
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f993123bf331b60800000000000000
+      internalID: 7715580625204911908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_73
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35cee973f83a0d20800000000000000
+      internalID: 3245469099847763262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Pipes_74
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0.79999924
+        width: 17.066668
+        height: 17.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506ed811b820730f0800000000000000
+      internalID: -1137437584569539067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
