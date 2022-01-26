@@ -237,6 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c989a4ec8fa9f7b49bf523ad37b8422e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursor: {fileID: 2800000, guid: 16e45cdfd4c771442a693057f9bc26ed, type: 3}
 --- !u!1 &403512861
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +377,7 @@ GameObject:
   - component: {fileID: 498146135}
   - component: {fileID: 498146134}
   - component: {fileID: 498146133}
+  - component: {fileID: 498146136}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -496,6 +498,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498146131}
   m_CullTransparentMesh: 1
+--- !u!114 &498146136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498146131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 191523690}
+          m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+          m_MethodName: OnMouseHover
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 498146133}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 191523690}
+          m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+          m_MethodName: OnMouseHoverExit
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 498146133}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &662307305
 GameObject:
   m_ObjectHideFlags: 0

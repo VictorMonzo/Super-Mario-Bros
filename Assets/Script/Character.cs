@@ -93,7 +93,7 @@ public class Character : MonoBehaviour
         if (transform.position.y < -1f)
         {
             levelManager.soundSource.PlayOneShot(levelManager.deadMario);
-            Invoke("comprobarMuerte", 5f);
+            Invoke("comprobarMuerte", 2f);
         }
     }
 
