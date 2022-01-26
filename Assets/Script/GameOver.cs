@@ -22,7 +22,18 @@ public class GameOver : MonoBehaviour
 
     public void restart()
     {
-        SceneManager.LoadScene("Nivel1");
+        switch (GameManager.level)
+        {
+            case 1:
+                SceneManager.LoadScene("Nivel1");
+                break;
+            case 2:
+                SceneManager.LoadScene("Nivel1");
+                break;
+            default:
+                SceneManager.LoadScene("MainMenu");
+                break;
+        }
     }
     
     public void OnMouseHover(Button button)
