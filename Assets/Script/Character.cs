@@ -32,7 +32,7 @@ public class Character : MonoBehaviour
 
     //Botones UI
     private float movementButton = 0.0f;
-    private Boolean tipoPC = true;
+    private Boolean tipoPC = false;
 
 
     // Start is called before the first frame update
