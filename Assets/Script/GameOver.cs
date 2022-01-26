@@ -28,7 +28,7 @@ public class GameOver : MonoBehaviour
                 SceneManager.LoadScene("Nivel1");
                 break;
             case 2:
-                SceneManager.LoadScene("Nivel1");
+                SceneManager.LoadScene("Nivel2");
                 break;
             default:
                 SceneManager.LoadScene("MainMenu");
