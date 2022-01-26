@@ -112,6 +112,14 @@ public class Character : MonoBehaviour
             sonidoFinal.Play();
             Invoke("changeScene", 5f);
         }
+
+        if (other.gameObject.CompareTag("FinalBandera2"))
+        {
+            movimiento = false;
+            animator.Play("idle");
+            sonidoFinal.Play();
+            Invoke("changeScene2", 5f);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -155,6 +163,11 @@ public class Character : MonoBehaviour
     private void changeScene()
     {
         SceneManager.LoadScene("Nivel2");
+    }
+    
+    private void changeScene2()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     private void comprobarMuerte()
