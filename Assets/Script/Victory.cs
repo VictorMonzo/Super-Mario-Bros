@@ -14,7 +14,7 @@ public class Victory : MonoBehaviour
     void Start()
     {
         _levelManager = FindObjectOfType<LevelManager>();
-        lifes.text = "Score: " + _levelManager.score;
+        lifes.text = "Score: " + GameManager.score;
     }
 
     // Update is called once per frame

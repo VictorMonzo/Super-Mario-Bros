@@ -93,7 +93,6 @@ public class Character : MonoBehaviour
         if (transform.position.y < -1f)
         {
             levelManager.soundSource.PlayOneShot(levelManager.deadMario);
-            levelManager.lives--;
             Invoke("comprobarMuerte", 5f);
         }
     }
@@ -140,7 +139,6 @@ public class Character : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             levelManager.soundSource.PlayOneShot(levelManager.deadMario);
-            levelManager.lives--;
             comprobarMuerte();
         }
     }
@@ -172,7 +170,8 @@ public class Character : MonoBehaviour
 
     private void comprobarMuerte()
     {
-        SceneManager.LoadScene(levelManager.lives < 0 ? "MainMenu" : "GameOver");
+        GameManager.lives--;
+        SceneManager.LoadScene(GameManager.lives < 0 ? "MainMenu" : "GameOver");
     }
 
     //Funciones botones UI

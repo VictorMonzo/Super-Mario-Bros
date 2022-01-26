@@ -16,14 +16,23 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        RestartValues();
+        
         _levelManager = FindObjectOfType<LevelManager>();
-        textCoins.text = "x" + _levelManager.coins.ToString("D2");
-        textLives.text = _levelManager.lives.ToString("D2");
+        textCoins.text = "x" + GameManager.coins.ToString("D2");
+        textLives.text = GameManager.lives.ToString("D2");
     }
 
     // Update is called once per frame
     void Update()
     {
+    }
+
+    public void RestartValues()
+    {
+        GameManager.coins = 0;
+        GameManager.lives = 0;
+        GameManager.score = 0;
     }
 
     public void startGame()
