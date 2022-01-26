@@ -13,6 +13,8 @@ TagManager:
   - cajaBust
   - Pared
   - MobilePlatform
+  - Enemy/Bowser
+  - FinalBandera2
   layers:
   - Default
   - TransparentFX
