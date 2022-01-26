@@ -153,19 +153,18 @@ public class Character : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             Enemy enemy = other.gameObject.GetComponent<Enemy>();
-
-            // TODO Comprobar donde le golpea y matar al Enemy
         }
     }
 
     private void changeScene()
     {
+        GameManager.level = 2;
         SceneManager.LoadScene("Nivel2");
     }
     
     private void changeScene2()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Victory");
     }
 
     private void comprobarMuerte()
@@ -174,7 +173,7 @@ public class Character : MonoBehaviour
         SceneManager.LoadScene(GameManager.lives < 0 ? "MainMenu" : "GameOver");
     }
 
-    //Funciones botones UI
+    //Funciones bfBanotones UI
 
     public void Jump()
     {

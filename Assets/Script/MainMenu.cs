@@ -33,6 +33,7 @@ public class MainMenu : MonoBehaviour
         GameManager.coins = 0;
         GameManager.lives = 0;
         GameManager.score = 0;
+        GameManager.level = 1;
     }
 
     public void startGame()
