@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 61508178322419950}
   - component: {fileID: 58783466407473920}
   - component: {fileID: 8007632094337364640}
+  - component: {fileID: 3072670509680652003}
   m_Layer: 25
   m_Name: Bowser
   m_TagString: Enemy/Bowser
@@ -214,9 +215,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.95}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.05
+  m_Radius: 0.2
 --- !u!114 &8007632094337364640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,3 +237,19 @@ MonoBehaviour:
   fireballBonus: 0
   stompBonus: 0
   isBeingStomped: 0
+--- !u!114 &3072670509680652003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946381533917960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ed94534ab511c4cb7794ad843632f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canMove: 0
+  canMoveAutomatic: 1
+  directionX: 1
+  Speed: {x: 3, y: 0}
