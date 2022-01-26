@@ -8,9 +8,9 @@ using UnityEngine.UI;
 public class LevelManager : MonoBehaviour
 {
     public int coins;
-    public int score=0;
+    public int score;
     public float time;
-    public int lives=0;
+    public int lives;
     public Text coinText;
     public Text timeText;
     public Text scoreText;
@@ -32,7 +32,7 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AddTime();
+        ChangeValues();
         
         mario = FindObjectOfType<Character> ();
         mario_Rigidbody2D = mario.gameObject.GetComponent<Rigidbody2D> ();
@@ -46,9 +46,21 @@ public class LevelManager : MonoBehaviour
         SetHubScore();
     }
 
+    public void ChangeValues()
+    {
+        /*coins = GameManager.coins;
+        score = GameManager.score;
+        lives = GameManager.lives;*/
+        
+        AddTime();
+        SetHubScore();
+        SetHudCoin();
+        SetHubLives();
+    }
+    
     public void SetHubScore()
     {
-        scoreText.text = score.ToString();
+        scoreText.text = GameManager.score.ToString();
     }
     
     public void AddTime()
@@ -68,42 +80,41 @@ public class LevelManager : MonoBehaviour
     
     
     public void AddCoin() {
-        coins++;
-        score += 100;
+        GameManager.coins++;
+        GameManager.score += 100;
+        
         soundSource.PlayOneShot (coinSound);
-        if (coins == 100)
-        { 
-            AddLife (); 
-            coins = 0;
-        }
-
-        if (coins >=100)
+        
+        if (GameManager.coins >= 100)
         {
-            coins = 0;
+            GameManager.coins = 0;
             AddLife();
         }
         
-        SetHudCoin ();
-        // AddScore (coinBonus);
+        SetHudCoin();
     }
     
     public void SetHudCoin() {
-        coinText.text = "x" + coins.ToString ("D2");
+        coinText.text = "x" + GameManager.coins.ToString ("D2");
+    }
+
+    public void SetHubLives()
+    {
+        vidasText.text = GameManager.lives.ToString();
     }
     
     public void AddLife() {
-        lives++;
-        soundSource.PlayOneShot (upLife);
+        GameManager.lives++;
+        soundSource.PlayOneShot(upLife);
 
-        vidasText.text = lives.ToString();
+        SetHubLives();
     }
     
     public void MarioStompEnemy(Enemy enemy)
     {
-        score = score + 1000;
+        GameManager.score += 1000;
         mario_Rigidbody2D.velocity = new Vector2(mario_Rigidbody2D.velocity.x + stompBounceVelocity.x, stompBounceVelocity.y);
         enemy.StompedByMario ();
         soundSource.PlayOneShot (stompSound);
-        //AddScore (enemy.stompBonus, enemy.gameObject.transform.position);
     }
 }
