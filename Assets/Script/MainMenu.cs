@@ -55,4 +55,9 @@ public class MainMenu : MonoBehaviour
     {
         Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
